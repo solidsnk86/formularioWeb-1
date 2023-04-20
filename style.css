@@ -1,0 +1,89 @@
+* {
+    font-family: 'Roboto';
+}
+.tarjetas-html {
+    background-color: #ccc;
+    margin: 20px;
+    padding: 5px;
+}
+.tarjetas-html li {
+    list-style: decimal;
+    margin: 5px;
+}
+/* Pago Exitoso */
+.container-pago {
+    background-color: #ccc;
+    border-radius: 8px;
+}
+#check {
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 10px 12px;
+    margin-top: 20px;
+    font-size: 1.3em;
+    background-color: rgb(47, 190, 47);
+    color: aliceblue;
+    box-shadow: 0 1px 2px #000;
+}
+.pago {
+    text-align: center;
+}
+.pago-exitoso {
+    margin: 10px;
+    padding: 10px;
+}
+.pago-exitoso i {
+    margin-top: 8px;
+    padding: 10px;
+    color: #000;
+}
+.pago-exitoso li {
+    list-style: none;
+}
+.pago-exitoso a {
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #000;
+    padding: 8px;
+    border-radius: 50px;
+    margin: 8px;
+}
+.pago-exitoso a:hover {
+    color: rgb(0, 140, 255);
+    text-decoration: underline;
+}
+.container-detalle {
+    color: rgb(117, 129, 165);
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 1px 3px #000;
+}
+
+/* Procesando pago */
+.container-proceso {
+    background-color: #ccc;
+    width: 80%;
+    border-radius: 8px;
+    padding: 3px;
+    box-shadow: 0 1px 2px #000;
+}
+.procesando {
+    margin: 9px;
+}
+
+/* Footer */
+footer {
+	margin-top: 20px;
+	text-align: center;
+    font-weight: bold;
+    text-shadow: 0 0 1px #000;
+}
+footer a {
+    text-decoration: none;
+    color: rgb(0, 140, 255);
+}
+footer a:hover {
+    text-decoration: underline;
+}
