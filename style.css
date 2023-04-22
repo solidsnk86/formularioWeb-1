@@ -1,4 +1,4 @@
-* {
+h5 {
     font-family: 'Roboto';
 }
 .tarjetas-html {
@@ -28,9 +28,15 @@
 .pago {
     text-align: center;
 }
+.pago {
+    font-family: 'Roboto';
+}
 .pago-exitoso {
     margin: 10px;
     padding: 10px;
+}
+.pago-exitoso h4 {
+    font-family: 'Roboto';
 }
 .pago-exitoso i {
     margin-top: 8px;
@@ -41,6 +47,7 @@
     list-style: none;
 }
 .pago-exitoso a {
+    font-family: 'Roboto';
     color: #000;
     text-decoration: none;
     border: 1px solid #000;
@@ -53,12 +60,14 @@
     text-decoration: underline;
 }
 .container-detalle {
-    color: rgb(117, 129, 165);
+    color: rgb(101, 118, 168);
     background-color: aliceblue;
     border-radius: 8px;
     padding: 10px;
     width: 300px;
     box-shadow: 0 1px 3px #000;
+    font-family: 'JMH Typewriter';
+    text-shadow: 0 1px 1px rgb(27, 32, 48);
 }
 
 /* Procesando pago */
